@@ -1,2 +1,80 @@
-﻿body {
+﻿h1 {
+    font-size: 300%;
+    
+}
+
+body {
+    background-color: grey;
+    font-family: 'Courier New';
+}
+
+.center {
+    margin: auto;
+    border-bottom: 3px solid black;
+    padding: 1%;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    height: 7%;
+    font-size: 300%;
+    border-right: solid black 3px;
+    border-left: solid black 3px;
+}
+
+.osynlig {
+    float: left;
+    width: 19%;
+    margin: auto;
+    height: 7%;
+   
+}
+
+.column a {
+    color: black;
+}
+
+.column:hover {
+    background-color: white;
+}
+
+.standardlayout {
+}
+
+.left {
+    width: 75%;
+    height: 75%;
+    background-color: blue;
+    float: left;
+    margin-top: 2%;
+}
+
+.right {
+    width: 25%;
+    height: 75%;
+    background-color: red;
+    float: right;
+    margin-top: 2%;
+}
+form{
+    background-color:lightgray;
+    height: 98%;
+    font-size: 200%;
+    width: 90%;
+    margin-left:5%;
+    border: solid 2px black;
+    
+}
+input {
+    
+    font-size: 60%;
+    font-family: 'Courier New';
+    width: 50%;
+}
+.login{width: 100%;
+       margin-top: 10%
 }
