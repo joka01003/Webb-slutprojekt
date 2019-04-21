@@ -1,6 +1,5 @@
 ﻿h1 {
     font-size: 300%;
-    
 }
 
 body {
@@ -14,6 +13,12 @@ body {
     padding: 1%;
     text-align: center;
 }
+
+#mittenmeny {
+    margin-left: auto;
+    margin-right: 100px;
+}
+
 
 .column {
     float: left;
@@ -31,7 +36,9 @@ body {
     width: 19%;
     margin: auto;
     height: 7%;
-   
+    
+    column-gap: 40px;
+    color: grey
 }
 
 .column a {
@@ -42,8 +49,6 @@ body {
     background-color: white;
 }
 
-.standardlayout {
-}
 
 .left {
     width: 75%;
@@ -53,6 +58,12 @@ body {
     margin-top: 2%;
 }
 
+    .left p {
+        
+        font-size: 200%;
+        text-justify:auto;
+    }
+
 .right {
     width: 25%;
     height: 75%;
@@ -60,21 +71,46 @@ body {
     float: right;
     margin-top: 2%;
 }
-form{
-    background-color:lightgray;
+
+form {
+    background-color: lightgray;
     height: 98%;
     font-size: 200%;
     width: 90%;
-    margin-left:5%;
+    margin-left: 5%;
     border: solid 2px black;
-    
 }
+
 input {
-    
     font-size: 60%;
     font-family: 'Courier New';
     width: 50%;
 }
-.login{width: 100%;
-       margin-top: 10%
+
+.login {
+    width: 100%;
+    margin-top: 10%
+}
+
+#gradient {
+    background-image: linear-gradient(to right, red, yellow);
+}
+
+.right nav {
+    font-size: 200%;
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+}
+
+.currentsite {
+    background-color: blue;
+    width: 100%
+}
+
+article {
+    text-align: justify;
 }
