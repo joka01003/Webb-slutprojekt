@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: grey;
+    background-color: #808080;
     font-family: 'Courier New';
 }
 
@@ -52,22 +52,22 @@ body {
 
 .left {
     width: 75%;
-    height: 75%;
-    background-color: blue;
+    height: 75vh;
+    background-color: grey;
     float: left;
     margin-top: 2%;
 }
 
     .left p {
         
-        font-size: 200%;
+        font-size: 150%;
         text-justify:auto;
     }
 
 .right {
     width: 25%;
-    height: 75%;
-    background-color: red;
+    height: 75vh;
+    background-color: lightgray;
     float: right;
     margin-top: 2%;
 }
@@ -78,7 +78,7 @@ form {
     font-size: 200%;
     width: 90%;
     margin-left: 5%;
-    border: solid 2px black;
+    
 }
 
 input {
@@ -107,10 +107,24 @@ ul {
 }
 
 .currentsite {
-    background-color: blue;
-    width: 100%
+    background-color: darkgray;
+    width: 50%;
+    height : 5vh;
+    
 }
 
 article {
     text-align: justify;
+}
+
+a{
+    text-decoration: none;
+}
+
+img {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
 }
