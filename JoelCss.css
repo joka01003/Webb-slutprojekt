@@ -7,6 +7,8 @@ body {
     font-family: 'Courier New';
 }
 
+
+/*Centrerar text bl.a*/
 .center {
     margin: auto;
     border-bottom: 3px solid black;
@@ -14,12 +16,13 @@ body {
     text-align: center;
 }
 
+/*Ändrar utseendet på den globala menyn*/
 #mittenmeny {
     margin-left: auto;
     margin-right: 100px;
 }
 
-
+/*Påbörjan för 3 spaltlayouten*/
 .column {
     float: left;
     width: 30%;
@@ -30,7 +33,7 @@ body {
     border-right: solid black 3px;
     border-left: solid black 3px;
 }
-
+/*Centreringsblock för globala menyn*/
 .osynlig {
     float: left;
     width: 19%;
@@ -49,7 +52,7 @@ body {
     background-color: white;
 }
 
-
+/*skapar den vänstra columnen*/
 .left {
     width: 75%;
     height: 75vh;
@@ -63,7 +66,7 @@ body {
         font-size: 150%;
         text-justify:auto;
     }
-
+/*skapar den högra columnen*/
 .right {
     width: 25%;
     height: 75vh;
@@ -71,7 +74,7 @@ body {
     float: right;
     margin-top: 2%;
 }
-
+/*ställer in hur loginrutan skall se ut*/
 form {
     background-color: lightgray;
     height: 98%;
@@ -101,7 +104,7 @@ input {
     list-style: none;
 }
 
-ul {
+nav ul {
     list-style: none;
     width: 100%;
 }
@@ -127,4 +130,77 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 25%;
+}
+
+#animation {
+    text-align:center;
+    margin: auto;
+    border-bottom: 3px solid black;
+    padding: 1%;
+
+    width: 14%;
+    height: 100%;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {
+        background-color: red;
+        left: 1px;
+        
+    }
+
+    25% {
+        background-color: orange;
+        left: 500px;
+        
+    }
+
+    50% {
+        background-color: orangered;
+        left: 1px;
+        
+    }
+
+    75% {
+        background-color: orange;
+        left: -500px;
+        
+    }
+
+    100% {
+        background-color: red;
+        left: 1px;
+   
+    }
+}
+
+#matlista{
+    margin-left : 50px;
+    font-size : 200%;
+    color:white;
+    list-style :decimal;
+}
+h2 {
+    font-size: 200%;
+    color: white;
+    border-bottom: solid 1px white;
+}
+table, td, tr, thead{
+    border: 1px solid white;
+    border-collapse : collapse;
+    color: white;
+    font-size:130%;
+}
+iframe{
+
+    
+    width:100%;
+    height:100%;
+    
+  
 }
