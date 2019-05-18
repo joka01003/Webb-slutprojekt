@@ -94,11 +94,11 @@ input {
     width: 100%;
     margin-top: 10%
 }
-
+/*skapar ett id som gör bakgrundfärgen till en gradient.*/
 #gradient {
     background-image: linear-gradient(to right, red, yellow);
 }
-
+/*Gör fonten större och tar bort liststylingen för nav */
 .right nav {
     font-size: 200%;
     list-style: none;
@@ -108,7 +108,7 @@ nav ul {
     list-style: none;
     width: 100%;
 }
-
+/*skapar en markering för den sida man är inne på*/
 .currentsite {
     background-color: darkgray;
     width: 50%;
@@ -131,7 +131,7 @@ img {
     margin-right: auto;
     width: 25%;
 }
-
+/*skapar grunden för animationen*/
 #animation {
     text-align:center;
     margin: auto;
@@ -146,7 +146,7 @@ img {
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
-
+/*skapar sjävla animationen*/
 @keyframes example {
     0% {
         background-color: red;
